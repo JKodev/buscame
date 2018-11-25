@@ -1,6 +1,6 @@
 # Buscame
 
-**Buscame** es una plataforma que permite compartir de forma sencilla, información sobre personas desaparecidas y de este modo apoyar ayudar a encontrarlas.
+**Buscame** es una plataforma que permite compartir, de forma sencilla, información sobre personas desaparecidas y de este modo ayudar a encontrarlas.
 
 **Buscame** no es un modelo de negocio ni ha sido creada o pensada con fines de lucro. El único objetivo es ayudar a localizar personas desaparecidas y enfrentar, de este modo, la trata de personas.
 
