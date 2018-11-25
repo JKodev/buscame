@@ -59,7 +59,7 @@ export const rules: IRule[] = [
   },
   {
     ext: "less",
-    use: ["less-loader"],
+    use: [{ loader: "less-loader", options: { javascriptEnabled: true } }],
   },
 ];
 
