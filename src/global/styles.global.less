@@ -1,16 +1,63 @@
 /* Regular @import url statements work as you'd expect them to -- alternatively
 you can import locally, and they wind up in the resulting bundle */
 // @import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
-@import '~antd/dist/antd.less';
+@import "~antd/dist/antd.less";
 
-html {
-  padding: 0;
-  border: 0;
-  font-family: 'Gentium Basic', serif;
-  font-size: 16px;
+// html {
+//   padding: 0;
+//   border: 0;
+//   font-family: 'Gentium Basic', serif;
+//   font-size: 16px;
 
-  /* We can nest rules, thanks to SASS */
-  li {
-    font-size: 2rem;
+//   /* We can nest rules, thanks to SASS */
+//   li {
+//     font-size: 2rem;
+//   }
+// }
+
+@primary-color: #f4a8a8;
+
+.ant-layout-header {
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+
+  .ant-menu {
+    background: unset;
+  }
+}
+
+.ant-input-search {
+  .ant-input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 100px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.04);
+    &:hover,
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.06);
+      border: 0;
+      box-shadow: unset;
+    }
+  }
+
+  .ant-input-suffix {
+    .ant-input-search-button {
+      border-top-right-radius: 100px;
+      border-bottom-right-radius: 100px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.map {
+  > div {
+    > div {
+      height: 100vh !important;
+      width: 100vw !important;
+    }
   }
 }

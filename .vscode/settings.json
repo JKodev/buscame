@@ -1,4 +1,11 @@
 {
   "editor.tabSize": 2,
   "typescript.tsdk": "node_modules/typescript/lib",
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "tslint.alwaysShowStatus": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.configFile": "tslint.json",
+  "files.exclude": {
+    "**/node_modules/*/**": true
+  }
 }
